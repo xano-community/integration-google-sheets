@@ -15,7 +15,7 @@ Read, write, and append data to Google Sheets spreadsheets directly from your Xa
 
 With the [Xano MCP](https://github.com/xano-labs/mcp-server) enabled in Claude Code, paste this into Claude:
 
-> Install the integration at https://github.com/xano-community/integration-google-sheets-sheets into my Xano workspace.
+> Install the integration at https://github.com/xano-community/integration-google-sheets into my Xano workspace.
 
 Claude will clone the repo and push the functions to your workspace.
 
@@ -29,8 +29,8 @@ Claude will clone the repo and push the functions to your workspace.
 
 2. Clone and push this integration:
    ```sh
-   git clone https://github.com/xano-community/integration-google-sheets-sheets.git
-   cd integration-google-sheets-sheets
+   git clone https://github.com/xano-community/integration-google-sheets.git
+   cd integration-google-sheets
    xano workspace:push . -w <your-workspace-id>
    ```
 
